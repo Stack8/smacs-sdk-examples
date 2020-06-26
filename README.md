@@ -1,6 +1,6 @@
 ### Examples of how to use Stack8 SDKs
 
-Welcome to Stack8's sdk-examples repo, which currently contains our Python SDK as well as an example script written in Python 3.6 to show how it can be used to make managing your UC environment simpler and more efficient. 
+Welcome to Stack8's smacs-sdk-examples repo, which currently contains our Python SDK as well as an example script written in Python 3.6 to show how it can be used to make managing your UC environment simpler and more efficient. 
 
 In order to call the SMACS APIs a bit of configuration is necessary. The following properties will need to be set in the configuration.py file within the swagger_client folder before opening the script:
 
