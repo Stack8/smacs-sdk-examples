@@ -10,6 +10,6 @@ self.username = "username for user with admin privileges"
 self.password = "password for user with admin privileges"
 ```
 
-Once these properties are set, you can install the required libraries(using pip/pip3 install -r requirements.txt) and then open smacs_sdk_examples.py in your text editor of choice and follow the instructions provided for an example of how to automate the provisioning and deprovisioning of an End User. 
+Once these properties are set, you can install the required libraries (pip/pip3 install -r requirements.txt) and then open smacs_sdk_examples.py in your text editor of choice and follow the instructions provided for an example of how to automate the provisioning and deprovisioning of an End User. 
 
 Feel free to contact customer support for any questions you may have regarding the use of our APIs, and thank you for the continued support!
