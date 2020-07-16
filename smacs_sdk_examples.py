@@ -29,7 +29,6 @@ site_id = swagger_client.SitesApi().search_sites(**search_params)[0].id
 
 end_user_deprovisioning_api = swagger_client.EndUserDeprovisioningApi()
 end_user_provisioning_api = swagger_client.EndUserProvisioningApi()
-end_user_provisioning_settings_api = swagger_client.EndUserProvisioningSettingsApi()
 global_360_view_api = swagger_client.Global360ViewApi()
 
 """
@@ -51,7 +50,7 @@ for the dial plan group we've chosen to assign them a DN from.
 
 print('Getting end user provisioning settings for site', site_id)
 print('Calling SMACS End User Provisioning Settings API...')
-provisioning_settings = end_user_provisioning_settings_api.get_end_user_provisioning_setting(site_id)
+provisioning_settings = end_user_provisioning_api.get_end_user_provisioning_setting(site_id = site_id)
 print('End user provisioning settings for site', site_id, ':')
 print(provisioning_settings)
 
