@@ -6,6 +6,11 @@ much more. Visit https://stack8.com to book your demo today!
 """
 
 """
+Make sure set up the values in configuration.py first in order to connect to your instance of SMACS. View the readme 
+for further instructions.
+"""
+
+"""
 In this example script, we will be be using the APIs to provision and then deprovision an end user with a DN on a 
 specified site. We will also provision a deskphone and Single Number Reach if 1-Click provisioning is enabled for those
 services on the selected site. (You can use the automation API to provision a user with any services as long as they 
@@ -50,7 +55,7 @@ for the dial plan group we've chosen to assign them a DN from.
 
 print('Getting end user provisioning settings for site', site_id)
 print('Calling SMACS End User Provisioning Settings API...')
-provisioning_settings = end_user_provisioning_api.get_end_user_provisioning_setting(site_id = site_id)
+provisioning_settings = end_user_provisioning_api.get_end_user_provisioning_setting(site_id=site_id)
 print('End user provisioning settings for site', site_id, ':')
 print(provisioning_settings)
 
