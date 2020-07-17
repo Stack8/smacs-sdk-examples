@@ -139,6 +139,6 @@ work that really matters. For more information on how to consume our APIs please
 print('Deprovisioning End User:', username)
 print('Calling SMACS End User Deprovisioning API...')
 end_user_deprovisioning_api.post_end_user_deprovisioning(deprovisioning_settings_json)
-print('End User Deprovosioning completed successfully!')
+print('End User Deprovisioning completed successfully!')
 
 print('Thanks for trying out the SMACS APIs. We at Stack8 would like to thank you for your continued support!')
