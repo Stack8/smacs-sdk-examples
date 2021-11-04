@@ -15,6 +15,6 @@ Once these properties are set, you can install the required libraries (pip/pip3 
 Feel free to contact customer support for any questions you may have regarding the use of our APIs, and thank you for the continued support!
 
 ### Note :
-These examples were written against SMACS version 6.8.1 and come packaged with the appropriate SDK. As we are constantly making improvements to our web services we cannot guarantee that this script will be able to run against any later version of SMACS, and certainly won't run against anything prior to 6.8.1. 
+These examples were written against SMACS version 7.2.0 and come packaged with the appropriate SDK. As we are constantly making improvements to our web services we cannot guarantee that this script will be able to run against any later version of SMACS, and certainly won't run against anything prior to 6.8.1. 
 
 To request a new version of these examples for your version of SMACS please contact customer support.
