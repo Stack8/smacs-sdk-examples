@@ -44,7 +44,7 @@ attempting to provision them with a new DN, deskphone and SNR.
 deprovisioning_settings_json = {"username": username, "makeDeskphonesPublic": False}
 print('Deprovisioning End User:', username)
 print('Calling SMACS End User Deprovisioning API...')
-end_user_deprovisioning_api.post_end_user_deprovisioning(deprovisioning_settings_json)
+end_user_deprovisioning_api.post_cisco_end_user_deprovisioning(deprovisioning_settings_json)
 print('End User Deprovisioning completed successfully!')
 
 """
@@ -55,7 +55,7 @@ for the dial plan group we've chosen to assign them a DN from.
 
 print('Getting end user provisioning settings for site', site_id)
 print('Calling SMACS End User Provisioning Settings API...')
-provisioning_settings = end_user_provisioning_api.get_end_user_provisioning_setting(site_id=site_id)
+provisioning_settings = end_user_provisioning_api.get_cisco_end_user_provisioning_setting(site_id=site_id)
 print('End user provisioning settings for site', site_id, ':')
 print(provisioning_settings)
 
@@ -114,7 +114,7 @@ provision our user for all of the services we've selected with a single call to 
 
 print('Provisioning End User:', username)
 print('Calling SMACS End User Provisioning API...')
-end_user_provisioning_api.post_end_user_provisioning(end_user_provisioning_post_body)
+end_user_provisioning_api.post_cisco_end_user_provisioning(end_user_provisioning_post_body)
 print('End User Provisioning completed successfully!')
 
 """
@@ -138,7 +138,7 @@ work that really matters. For more information on how to consume our APIs please
 
 print('Deprovisioning End User:', username)
 print('Calling SMACS End User Deprovisioning API...')
-end_user_deprovisioning_api.post_end_user_deprovisioning(deprovisioning_settings_json)
+end_user_deprovisioning_api.post_cisco_end_user_deprovisioning(deprovisioning_settings_json)
 print('End User Deprovisioning completed successfully!')
 
 print('Thanks for trying out the SMACS APIs. We at Stack8 would like to thank you for your continued support!')
